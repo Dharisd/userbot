@@ -1,4 +1,5 @@
 venv/
+userbot/models/
 .idea/
 .env
 *.session
