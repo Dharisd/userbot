@@ -1,4 +1,5 @@
 venv/
+userbot/downloads/*.ogg
 userbot/models/
 .idea/
 .env
