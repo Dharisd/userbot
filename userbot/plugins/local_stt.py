@@ -8,12 +8,12 @@ from userbot.plugins.help import add_command_help
 from userbot.helpers.sttHelpers import sttHelper
 
 
-stt_helper = sttHelper()
+#stt_helper = sttHelper()
 
 @UserBot.on_message(
     filters.command(["stt", "stt"], ".") & (filters.me | filters.user(ALLOWED_USERS))
 )
-async def send_stt(_, message: Message,stt_helper=stt_helper):
+async def send_stt(_, message: Message):
     try:
         cmd = message.command
 
